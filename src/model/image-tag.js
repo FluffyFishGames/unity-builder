@@ -35,6 +35,7 @@ class ImageTag {
     return {
       generic: '',
       webgl: 'webgl',
+	  linux: 'linux-il2cpp',
       mac: 'mac',
       windows: 'windows',
       android: 'android',
@@ -51,7 +52,7 @@ class ImageTag {
       [Platform.types.StandaloneOSX]: mac,
       [Platform.types.StandaloneWindows]: windows,
       [Platform.types.StandaloneWindows64]: windows,
-      [Platform.types.StandaloneLinux64]: windows,
+      [Platform.types.StandaloneLinux64]: linux,
       [Platform.types.iOS]: ios,
       [Platform.types.Android]: android,
       [Platform.types.WebGL]: webgl,
